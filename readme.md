@@ -16,6 +16,7 @@ General Morphological Analysis is a method developed by Fritz Zwicky for explori
 
 ### Microsoft Excel Implementation
 In the embedded VBA modules, you will find a series of Class Modules that capture and process the key parameters and the output of the GMA methodology. The critical subset are the following:
+
 | Class Module | Description | Corresponding Worksheet |
 | ------ | ------ |------ |
 | Attributes | Manages the dimensions of the problem | Reads from *Attributes* worksheet |
@@ -24,6 +25,7 @@ In the embedded VBA modules, you will find a series of Class Modules that captur
 | Worktabs | Manages the tabs in the Excel workbook | Creates, deletes and updates above worksheets |
 
 Three VBA subprocedures establish the core algorithm for the methodology:
+
 | Sub | Description | Corresponding Worksheet |
 | ------ | ------ |------ |
 | S01_Initialize_Attributes() | Initializes the workbook and creates *Attributes* worksheet | *Attributes* |
